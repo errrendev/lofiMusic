@@ -148,7 +148,7 @@ function App() {
             </div>
             <div className='welcome'>
               <h4>Welcome to</h4>
-              <h3>Lofi Train</h3>
+              <h3>Lofi Music</h3>
               <p className='text-sm'>- By Eren Yeager</p>
             </div>
           </div>

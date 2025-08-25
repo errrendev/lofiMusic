@@ -7,7 +7,7 @@ const Favorites = ({setPress, setIsFavorite, isFavorite, setSelectedSong, select
 
   useEffect(function() {
     setAudioData(isFavorite)
-  }, [])
+  }, [isFavorite])
 
   return (
     <div className='favorite-content'>

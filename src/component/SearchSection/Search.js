@@ -5,13 +5,13 @@ import audioFiles from '../../utils/audioData'
 
 const Search = ({setPress, setSelectedSong, selectedSong}) => {
   const [audioData, setAudioData] = useState()
-  const [search, setSearch] = useState('')
+  const [search ] = useState('')
 
   useEffect(function() {
     if (search === '') {
       setAudioData(audioFiles)
     }
-  }, [])
+  }, [search])
 
   function handleSearch(e) {
       setAudioData(audioFiles.filter(audio => {
